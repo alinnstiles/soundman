@@ -1,4 +1,3 @@
-import React from 'react'; // Import React if not already imported
 import boothImage from './soundman.png/booth.png'; // Import the booth.png image
 import headImage from './soundman.png/head.png'; 
 import bodyImage from './soundman.png/body.png';
@@ -127,6 +126,7 @@ export function SoundmanDrawing({ numberOfGuesses }: SoundmanDrawingProps) {
     <div style={{ position: "relative" }}>
       {BOOTH}
       {BODY_PARTS.slice(0, numberOfGuesses)}
+
     </div>
   )
 }
